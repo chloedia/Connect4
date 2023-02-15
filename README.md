@@ -38,6 +38,7 @@ As the board can provide too many possibilities of actions, the time complexity 
 Since there are 7 possible alignment, this cell takes the value 7 etc. You can easily see that that it looks like Gaussian joint probability distribution, this is on this realisation that we could easily adapt the code to any shape of Connect 4, hence our heuristic is simply created with gaussian densities.
 
 **Depth**
+
 We chose to let the AI see only 3 step forward to limit the computational time to maximum 10 seconds, however moving forward in the game the maximum depth slowly increases to 8. 
 
 ## Quick Start 💻 (Python3)
@@ -52,18 +53,15 @@ You can follow the different steps inorder to get the programm working on your c
    git clone https://github.com/chloedia/Connect4.git
    ```
 3. Execute the python script
-(Default board size (6,12))
    ```sh
+   #Default board size (6,12)
    python3 main.py
-   ```
-(Custom board size)
-```sh
+   #Custom board size)
    python3 main.py --board_size 6 12
-   ```
-(Let the AI play alone)
-  ```sh
+   #Let the AI play alone
    python3 main.py --board_size 6 12 --iaVSia True
    ```
+
   
   
 
