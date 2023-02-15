@@ -18,7 +18,9 @@ This projet was realized for the 1st year course **"Introduction to AI and data 
 
 ## Implementation 🧠
 **AI Rules**
-Possible actions : $A = {1,2, ..., n_columns}$
+
+Possible actions : $A = \{1,2, ..., n_{columns}\}$
+
 Rewards : **Win** = + 1000 - depth ; **Loss** = - 1000 + depth
 
 **MinMax algorithm**
